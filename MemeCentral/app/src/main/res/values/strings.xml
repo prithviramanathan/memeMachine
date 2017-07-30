@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meme Machine</string>
+    <string name="facebook_application_id">282778802175815</string>
+    <string name="twitter_application_id">oDfanmEU7o8ERo1gwbtyBvFyq</string>
+    <string name="title_activity_leaderboard">LeaderboardActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+</resources>

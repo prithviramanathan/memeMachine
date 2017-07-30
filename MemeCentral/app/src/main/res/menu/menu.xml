@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/RecentButton"
+        android:title="Recent"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/LeaderboardButton"
+        android:title="Leaderboards"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/username"
+        android:title="Set Username"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/logoutButton"
+        android:title="Log out"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+</menu>

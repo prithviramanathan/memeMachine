@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/uploadBox"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Upload a Meme"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/upload" />
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Description"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:ems="10"
+        android:id="@+id/giveDescription" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Select Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/finishUpload"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:id="@+id/findImage" />
+
+        <Button
+            android:text="Upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/findImage"
+            app:layout_constraintRight_toRightOf="parent"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:id="@+id/finishUpload" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
